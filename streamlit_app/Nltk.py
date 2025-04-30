@@ -12,7 +12,7 @@ import re
 
 
 # Load Movie data
-data = pd.read_csv("C:\\Users\\hania\\Downloads\\scraped_table2(in).csv")
+data = pd.read_csv("scraped_table2(in).csv")
 
 # Clean the data
 data = data[~data.isin(['-']).any(axis=1)]  # Remove rows with '-'
